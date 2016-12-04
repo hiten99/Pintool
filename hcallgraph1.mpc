@@ -1,0 +1,12 @@
+// hcallgraph1.mpc
+project (hcallgraph1) : oasis_pintool {
+  sharedname = hcallgraph1
+  includes += $(PINPP_ROOT)
+  install = .
+  Source_Files {
+    hcallgraph1.cpp
+	Graph.cpp
+	Vertex.cpp
+	Edge.cpp
+  }
+}
